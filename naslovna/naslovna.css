@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#video  {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }

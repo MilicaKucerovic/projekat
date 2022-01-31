@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("admin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main {
+    width: 50%;
+    background: #272b25;
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main h1 {
+    padding-bottom: 15px;
+    font-family: 'Comforter', cursive;
+    font-size: 60px;
+}
+
+.dugmad {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.dugmad_unutrasnji {
+    display: inline-block;
+    padding-right: 30px;
+
+}
+
+
+#procitaj, #odjavi {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: black;
+    color: #ddd;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+#procitaj:hover {
+    background: #272b25;
+    box-shadow: -6px 6px 0 hsl(100, 6%, 8%);
+    cursor: pointer;
+}
+
+#odjavi:hover {
+    background: #272b25;
+    box-shadow: -6px 6px 0 hsl(100, 6%, 8%);
+    cursor: pointer;
+}

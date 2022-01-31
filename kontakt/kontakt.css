@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url("onama.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.main {
+    width: 38%;
+    background: #272b25;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 35px;
+    margin-left: 56px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.ime, .email, .telefon, .tekst {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    margin: 16px 0px;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.ime:focus, .email:focus, .telefon:focus {
+    box-shadow: 0px 0px 3px 3px #ddd;
+}
+.tekst {
+    height: 100px; 
+}
+.submit {
+    border: 0;
+    background: #111;
+    color: #ddd;
+    padding: 13px 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit:hover {
+    background: #272b25;
+    box-shadow: -6px 6px 0 hsl(100, 6%, 8%);
+
+}

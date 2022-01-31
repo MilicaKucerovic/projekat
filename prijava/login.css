@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+body {
+    width: 100vh;
+    height: 100%;
+    background-image: url("./slika.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.forma {
+    width: 50%;
+    background: #272b25;
+    opacity: 0.8;
+    color: #ddd;
+    text-align: center;
+    padding: 30px;
+    margin-top: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.forma h1 {
+    padding-bottom: 10px;
+}
+.forma label {
+    float: left;
+    padding-bottom: 5px;
+}
+#keep {
+    float: left;
+    position: relative;
+    left: 5px;
+    bottom: -2px;
+}
+#user, #pass {
+    
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    margin: 16px 0px;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+#user:focus, #pass:focus {
+    box-shadow: 0px 0px 3px 3px #ddd;
+}
+#submit {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 50%;
+    border: 0;
+    background: #111;
+    color: #ddd;
+    padding: 13px 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#submit:hover {
+    background: #272b25;
+    box-shadow: -6px 6px 0 hsl(100, 6%, 8%);
+}

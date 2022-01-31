@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("dvoriste.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main {
+    width: 50%;
+    background: #272b25;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main h1 {
+    padding-bottom: 25px;
+}
+
+#procitaj {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: black;
+    color: #ddd;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+
+#procitaj:hover {
+    background: #272b25;
+    box-shadow: -6px 6px 0 hsl(100, 6%, 8%);
+    cursor: pointer;
+}
+/* 
+#procitaj :active {
+    opacity: 0.8;
+    box-shadow: -3px 3px 0 hsl(100, 6%, 8%);
+}
+
+#procitaj ::before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    border: solid 6px transparent;
+    border-right: solid 6px hsl(100, 6%, 8%);
+    border-left-width: 0px;
+
+    background: none;
+    top: 0px;
+    left: -6px;
+}
+
+#procitaj ::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    border: solid 6px transparent;
+    border-top: solid 6px hsl(100, 6%, 8%);
+    border-bottom-width: 0px;
+    background: none;
+    right: 0;
+    bottom: -6px;
+}
+
+#procitaj :active::before {
+    border: solid 3px transparent;
+    border-right: solid 3px hsl(100, 6%, 8%);
+    border-left-width: 0px;
+    left: -3px;
+    color: #ddd;
+    background-color: #ddd;
+}
+
+#procitaj :active::after {
+    border: solid 3px transparent;
+    border-top: solid 3px hsl(100, 6%, 8%);
+    border-bottom-width: 0px;
+    bottom: -3px;
+} */
+
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #ddd;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:visited {
+    text-decoration: none;
+    list-style: none;
+    color: #ddd;
+}
+
+#vise {
+    display: none;
+}
